@@ -14,3 +14,7 @@ let age = 18
  
  let sub = st.substring(4,9);
  console.log(sub); 
+
+ let greetings = "Welcome to Js"
+
+ console.log(greetings.includes("come"))

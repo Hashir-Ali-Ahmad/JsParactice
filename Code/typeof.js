@@ -1,4 +1,5 @@
-// Premitive datatypes
+// .............................Premitive datatypes
+// String, Int, BigInt, Boolean, Null, undefined, Symbol
 let a = 'Hashir'
 console.log(typeof a);
 
@@ -14,7 +15,11 @@ console.log(typeof d);
 let e;
 console.log(typeof e);
 
-// Non premitive
+const id = Symbol('123')
+
+// Big Int is also premitive
+
+// ..................................Non premitive
 
 let f = function (a,b){
     return a + b
